@@ -19,7 +19,7 @@ body {
     width: 95%;
     min-width: 300px;
     max-width: 500px;
-    margin: 60px auto;
+    margin: 45px auto 30px;
     padding: 0;
 }
 
@@ -131,5 +131,6 @@ input[type="radio"]:checked+label{
     #herobox {
         max-width: 950px;
         display: flex;
+        margin: 30px auto 30px;
     }
 }
