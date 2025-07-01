@@ -1,0 +1,135 @@
+body {
+    max-width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+
+    font-family: "Rubik", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; /* 400 500 */
+    font-style: normal;
+    font-size: 1.125rem;
+
+    background-color: hsl(226, 43%, 10%);
+}
+
+#herobox {
+    width: 95%;
+    min-width: 300px;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 0;
+}
+
+#lead {
+    background-color: hsl(246, 80%, 60%);
+    padding: 30px 0;
+    border-radius: 20px;
+}
+
+#lead img {
+    min-width: 60px;
+    max-width: 80px;
+    min-height: 60px;
+    max-height: 80px;
+    margin: 0 auto;
+    padding: 0;
+    border-radius: 100%;
+    outline: 3px solid white;
+}
+
+#lead h1 {
+    font-weight: 300;
+}
+
+input[type="radio"]{
+    appearance: none;
+}
+
+label {
+    color: hsl(235, 45%, 61%);
+    cursor: pointer;
+}
+
+input[type="radio"]:hover+label{
+    color: hsl(236, 100%, 87%);
+}
+
+input[type="radio"]:checked+label{
+    color: hsl(236, 86%, 89%);
+}
+
+.category {
+    background-repeat: no-repeat;
+    background-position: right 20px top -10px;
+    margin-top: 30px;
+    padding: 40px 0 0;
+    border-radius: 20px;
+}
+
+#work {
+    background-color: hsl(15, 100%, 70%);
+    background-image: url('images/icon-work.svg');
+}
+
+#play {
+    background-color: hsl(195, 74%, 62%);
+    background-image: url('images/icon-play.svg');
+}
+
+#study {
+    background-color: hsl(348, 100%, 68%);
+    background-image: url('images/icon-study.svg');
+}
+
+#exercise {
+    background-color: hsl(145, 58%, 55%);
+    background-image: url('images/icon-exercise.svg');
+}
+
+#social {
+    background-color: hsl(264, 64%, 52%);
+    background-image: url('images/icon-social.svg');
+}
+
+#self-care {
+    background-color: hsl(43, 84%, 65%);
+    background-image: url('images/icon-self-care.svg');
+}
+
+.fs-7 {
+    font-size:0.9rem;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+/* C O L O R S */
+.bg-navy {
+    background-color: hsl(235, 46%, 20%);
+    border-radius: 20px;
+}
+
+.purple {
+    color: hsl(235, 74%, 72%);
+}
+
+.navy {
+    color: hsl(236, 100%, 87%);
+}
+
+.white {
+    color: hsl(235, 61%, 92%);
+}
+
+/* M E D I A  Q U E R I E S */
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  
+    #herobox {
+        max-width: 950px;
+        display: flex;
+    }
+}
